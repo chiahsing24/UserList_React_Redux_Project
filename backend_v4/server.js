@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = require('./app');
 
 mongoose
-    .connect('mongodb+srv://kikat:GoGatorsJ237@cluster0-ple5e.mongodb.net/project1', {
+    .connect('mongodb+srv://kikat:<PASSWORD>@cluster0-ple5e.mongodb.net/project1', {
         useNewUrlParser: true,
         useCreateIndex: true
     })
